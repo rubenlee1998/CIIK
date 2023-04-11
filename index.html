@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/mainPage.css" />
     <link rel="stylesheet" href="/css/loadingPage.css" />
+    <link
+      rel="stylesheet"
+      href="fullPage.js/fullPage.js-master/dist/fullpage.css"
+    />
     <title>cIIk</title>
   </head>
   <body>
@@ -21,8 +25,22 @@
       </div>
       <div id="spring-text">Spring</div>
     </div>
+    <div id="fullpage">
+      <div class="section">Section 1</div>
+      <div class="section">Section 2</div>
+      <div class="section">Section 3</div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="javascripts/loadingPage.js"></script>
+    <script src="javascripts/mainPage.js"></script>
+    <script src="/fullPage.js/fullPage.js-master/dist/fullpage.js"></script>
   </body>
+  <script>
+    new fullpage("#fullpage", {
+      autoScrolling: true,
+      scrollHorizontally: true,
+      anchors: ["section1", "section2", "section3"],
+    });
+  </script>
 </html>
 <!-- Campus amI In Korea -->

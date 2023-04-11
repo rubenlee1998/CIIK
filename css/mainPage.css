@@ -1,6 +1,38 @@
 body {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -100%);
+  opacity: 0;
+}
+
+h1:nth-child(1) {
+  animation-delay: 1s;
+  top: 50%;
+  left: 50%;
+}
+
+h1:nth-child(2) {
+  animation-delay: 1.2s;
+}
+
+h1:nth-child(3) {
+  animation-delay: 1.4s;
+}
+
+h1:nth-child(4) {
+  animation-delay: 1.6s;
+}
+
 .section {
   height: 100vh;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
@@ -22,7 +54,7 @@ body {
 .animated-text {
   position: relative;
   color: #fff;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
   animation-name: riseUp;
   animation-duration: 1s;
@@ -31,7 +63,7 @@ body {
 
 @keyframes riseUp {
   from {
-    transform: translateY(100%);
+    transform: translateY(200%);
     opacity: 0;
   }
   to {

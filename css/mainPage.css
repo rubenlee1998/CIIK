@@ -5,3 +5,37 @@ body {
   height: 100vh;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
+
+.overlay-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-text {
+  position: relative;
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  animation-name: riseUp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes riseUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

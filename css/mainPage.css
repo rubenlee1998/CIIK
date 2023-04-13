@@ -1,7 +1,5 @@
 body {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
-}
-h1 {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -64,13 +62,44 @@ h1:nth-child(3) {
   animation: moveArrow 1s ease-in-out infinite;
 }
 
+.contact:hover {
+  animation: moveArrow 1s ease-in-out infinite;
+}
+
+.text-box {
+  position: fixed;
+  left: 80%;
+  top: 35%;
+  transition: all 0.5s ease;
+  z-index: 11000;
+  animation: riseUp 10s ease-in-out;
+}
+
+.text-box:hover {
+  transform: scale(1.1);
+}
+
+.text-box p {
+  position: relative;
+  left: -8%;
+  top: -10%;
+  font-size: 18px;
+  color: white;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.text-box:hover p {
+  opacity: 1;
+}
+
 .link h1 {
   animation-delay: 1.4s;
   top: 2%;
   left: 4%;
 }
 
-.section {
+.section:nth-child(1) {
   height: 100vh;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
@@ -78,6 +107,34 @@ h1:nth-child(3) {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
+
+.bottom-right-insta {
+  position: absolute;
+  top: -120%;
+  left: -70%;
+}
+
+.custom-shape-divider-bottom-1681291094 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1681291094 svg {
+  position: relative;
+  display: block;
+  width: calc(163% + 1.3px);
+  height: 169px;
+}
+
+.custom-shape-divider-bottom-1681291094 .shape-fill {
+  fill: #000000;
+}
+
 @keyframes riseUp {
   from {
     transform: translateY(200%);

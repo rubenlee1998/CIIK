@@ -1,0 +1,106 @@
+.section:nth-child(3) {
+  height: 100vh;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.bottom-left {
+  transform: scale(0.2);
+  position: absolute;
+  right: 1vh;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.white-square1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55vh;
+  height: 90vh;
+  background-color: white;
+  background-image: url("../images/cherryBack.png");
+  background-size: cover;
+  background-position: top;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  transform-style: preserve-3d;
+  transform: translate(-50%, -50%) rotateX(5deg) rotateY(5deg);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.custom-shape-divider-bottom-1681293104 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1681293104 svg {
+  position: relative;
+  display: block;
+  width: calc(161% + 1.3px);
+  height: 82px;
+}
+
+.custom-shape-divider-bottom-1681293104 .shape-fill {
+  fill: #00c9ff;
+}
+
+.title-wrapper {
+  position: relative;
+  top: -40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 5em;
+  z-index: 10004;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.white-square1 img {
+  margin-top: 21%;
+  transform: scale(1.14);
+  width: 190%;
+  height: 111%;
+  top: 10%;
+}
+
+.white-square1 h1 {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.white-square1 p {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.white-square1 a {
+  font-weight: bold;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  padding: 2%;
+  border-radius: 5px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

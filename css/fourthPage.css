@@ -54,7 +54,7 @@
 
 .white-square2 h1 {
   position: absolute;
-  top: 24%;
+  top: 16%;
   left: 34.5%;
   transform: translate(-50%, -50%);
 }
@@ -63,16 +63,4 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.white-square2 a {
-  font-weight: bold;
-  background-image: linear-gradient(to top, #92fe9d 0%, #00c9ff 100%);
-  padding: 2%;
-  border-radius: 5px;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
 }

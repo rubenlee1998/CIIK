@@ -24,13 +24,6 @@
   fill: #a2b6df;
 }
 
-.bottom-right-wiki {
-  position: absolute;
-  bottom: 3%;
-  left: 1%;
-  transform: rotate(120deg);
-}
-
 .white-square3 {
   display: flex;
   justify-content: center;
@@ -82,4 +75,5 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: black;
 }

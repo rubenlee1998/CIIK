@@ -15,13 +15,13 @@ setTimeout(() => {
   anime({
     targets: springText,
     opacity: 0,
-    duration: 500,
+    duration: 1000,
     easing: "linear",
     complete: function (anim) {
       springText.parentNode.removeChild(springText);
     },
   });
-}, 500);
+}, 3000);
 
 var progressBarFill = document.querySelector(".progress-bar-fill");
 var progress = 0;
@@ -45,7 +45,7 @@ var imageElements = document.querySelectorAll("#image-container img");
 
 // Set initial position and opacity for images
 anime.set(imageElements, {
-  translateY: "100vh",
+  translateX: "100vh",
   opacity: 0,
 });
 
@@ -53,13 +53,10 @@ anime.set(imageElements, {
 imageElements.forEach(function (image, index) {
   anime({
     targets: image,
-    translateY: ["100vh", "0"],
+    translateX: ["100vh", "0"],
     opacity: [0, 1],
-    delay: index * 500, // Delay animation for each image
+    delay: index * 1000, // Delay animation for each image
     duration: 2000, // Animation duration
     easing: "easeInOutQuad", // Animation easing
-    complete: function () {
-      console.log("Animation complete");
-    },
   });
 });

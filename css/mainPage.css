@@ -18,6 +18,7 @@ body {
   position: absolute;
   transform: translate(-50%, -100%);
   opacity: 0;
+  font-size: 2rem;
 }
 
 .animated-text {
@@ -110,8 +111,10 @@ h1:nth-child(3) {
 
 .bottom-right-insta {
   position: absolute;
-  top: -120%;
-  left: -70%;
+  width: 50vh;
+  height: 50vh;
+  top: -50%;
+  left: -50%;
 }
 
 .custom-shape-divider-bottom-1681291094 {

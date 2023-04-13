@@ -3,16 +3,12 @@
   background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
 }
 
-.bottom-left {
-  transform: scale(0.2);
-  position: absolute;
-  right: 1vh;
-}
-
 .bottom-right {
   position: absolute;
   bottom: 0;
   right: 0;
+  width: 30%;
+  height: 60%;
 }
 
 .white-square1 {
@@ -103,4 +99,5 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: black;
 }

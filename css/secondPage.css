@@ -61,13 +61,13 @@ a {
 .text {
   color: white;
   width: 80%;
-  padding: 0 6vh;
+  padding: 0 7vh;
   text-align: left;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
 }
 .text h1 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 .custom-shape-divider-bottom-1681290493 {
   position: absolute;

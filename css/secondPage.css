@@ -61,7 +61,7 @@ a {
 .text {
   color: white;
   width: 80%;
-  padding: 0 50px;
+  padding: 0 6vh;
   text-align: left;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
